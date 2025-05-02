@@ -27,7 +27,7 @@ yarn install
 yarn gulp build
 yalc publish --scripts=false
 
-git clone -b main https://github.com/TerriaJS/TerriaMap.git
+git clone -b test-build https://github.com/TerriaJS/TerriaMap.git
 cd TerriaMap
 TERRIAMAP_COMMIT_HASH=$(git rev-parse HEAD)
 yalc add terriajs
